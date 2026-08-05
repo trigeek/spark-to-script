@@ -1,0 +1,24 @@
+{
+  "name": "spark-to-script-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local Spark to Script agent runtime",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  }
+}

@@ -1,0 +1,48 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local runtime data
+data/
+uploads/
+exports/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.wal
+*.shm
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and test artifacts
+*.log
+playwright-report/
+test-results/
+output/
+.playwright-cli/
+qa-*.png
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Private project-management metadata is not part of the public product
+.trellis/
+.agents/
+.codex/
+AGENTS.md
